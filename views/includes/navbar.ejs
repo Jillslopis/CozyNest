@@ -18,6 +18,11 @@
     padding: 0.5rem 3rem 0.5rem 3rem;
     font-size: 1rem;
   }
+  .nav-link-logo{
+    color: #fe424d !important;
+    text-decoration: none;
+    font-weight: 900;
+  }
 </style>
 
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
@@ -28,7 +33,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="/listings">Explore</a>
+          <a class="nav-link-logo" href="/listings">CozyNest</a>
           
         </div>
         <div class="navbar-nav ms-auto">
@@ -38,7 +43,7 @@
           </form>
         </div>
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="/listings/new">Airbnb your home</a>
+          <a class="nav-link" href="/listings/new"><b>CozyNest your home</b></a>
           <% if(!currUser) { %>
           <a class="nav-link "  href="/signup"><b>Sign up</b></a>
           <a class="nav-link" href="/login"><b>Log in</b></a>
